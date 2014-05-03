@@ -1,6 +1,5 @@
 /* Your Website Styles */
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+body {
+	background: url('../img/subtle_dots.png') repeat;
 }
+/* Show Grid */
