@@ -20,11 +20,11 @@ body {
 .container {
 	background: white;
 	box-shadow: 0px 5px 45px #e1e1e1;
-	padding: 0 25px 0 25px;
+	padding: 0 40px 0 40px;
 }
 
 .topbox li {
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: 2px;
   display: inline-block;
 
@@ -53,6 +53,21 @@ nav {
   background: #58595b;
   overflow:scroll;
   padding-left: 0;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+}
+
+h1 {
+	font-family: 'Expletus Sans', sans-serif;
+	color: #00a1e0;
+	text-align: center;
+	font-size: 60px;
+	margin: 15px 0 0 30px;
 }
 
 
