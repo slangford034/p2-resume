@@ -4,7 +4,16 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: #58595b;
 	text-align: justify;
+}
 
+p {
+	font-size: 14px;
+	margin-left: 46px;
+	margin-right: 46px;
+}
+
+.lines {
+	line-height: 26px;
 }
 
 .mail::before {
@@ -12,9 +21,17 @@ body {
 	margin: 0 8px;
 }
 
+.mail {
+	float: right;
+}
+
 .phone::before {
 	content: url(../img/contact.png);
 	margin: 0 8px;
+}
+
+.phone {
+	margin-left: 95px;
 }
 
 .container {
@@ -68,7 +85,41 @@ h1 {
 	text-align: center;
 	font-size: 60px;
 	margin: 15px 0 0 30px;
+	letter-spacing: 4px;
 }
+
+h2 {
+	color: #58595b;
+}
+
+h3 {
+	margin-left: 46px;
+}
+
+.list {
+	font-size: 14px;
+	text-align: left;
+	margin-right: 46px;
+
+	
+}
+
+.title {
+	color: #00a1e0;
+	margin-right: 46px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.dates {
+	font-size: 14px
+}
+
+hr {
+	border: 1px solid #e1e1e1;
+}
+
+
 
 
 /* Show Grid */
