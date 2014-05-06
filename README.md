@@ -1,16 +1,10 @@
-# Steven Langford
+# Cited Sources
 
-##Education
+## Images
 
-* School A
-* School B
-* School C
+* http://subtlepatterns.com/
 
-## Experience
-* Item 1
-* Item 2
-* Item 3
-
-##Skillset
-
-##Awards
+## Code/References
+* http://mfrantilla.github.io/p2-resume/
+* http://teamtreehouse.com/
+* http://www.favicon.cc/
