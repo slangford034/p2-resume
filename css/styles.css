@@ -7,9 +7,9 @@ body {
 }
 
 p {
-	font-size: 14px;
-	margin-left: 46px;
-	margin-right: 46px;
+	font-size: .875em;
+	margin-left: 4.6%;
+	margin-right: 4.6%;
 }
 
 .lines {
@@ -31,17 +31,17 @@ p {
 }
 
 .phone {
-	margin-left: 95px;
+	margin-left: 9.5%;
 }
 
 .container {
 	background: white;
 	box-shadow: 0px 5px 45px #e1e1e1;
-	padding: 0 40px 0 40px;
+	padding: 0 4% 0 4%;
 }
 
 .topbox li {
-  font-size: 18px;
+  font-size: 1.125em;
   letter-spacing: 2px;
   display: inline-block;
 
@@ -73,10 +73,10 @@ nav {
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 20%;
+  height: 20%;
   display: block;
-  margin: 150px 0 0 410px ;
+  margin: 15% 0 0 41% ;
 }
 
 h2 {
@@ -84,26 +84,26 @@ h2 {
 }
 
 h3 {
-	margin-left: 46px;
+	margin-left: 4.6%;
 }
 
 .list {
-	font-size: 14px;
+	font-size: .875em;
 	text-align: left;
-	margin-right: 46px;
+	margin-right: 4.6%;
 
 	
 }
 
 .title {
 	color: #00a1e0;
-	margin-right: 46px;
+	margin-right: 4.6%;
 	text-align: left;
-	font-size: 14px;
+	font-size: .875em;
 }
 
 .dates {
-	font-size: 14px
+	font-size: .875em
 }
 
 hr {
@@ -117,20 +117,47 @@ hr {
 .btn a {
 	text-decoration: none;
 	color: #414042;
-	font-size: 18px;
+	font-size: 1.125em;
 	letter-spacing: 2px;
 }
 
  .container .footer .portfolio {
   text-align: center;
   background: #e1e1e1;
-  padding: 50px;
-  margin: 0 -40px -20px -40px;
+  padding: 5.9%;
+  margin: 0 -4% -2% -6%;
   height: 180px;
+  width: 100%;
 }
 
 .btn a:hover {
 	color: #00a1e0;
+}
+
+@media screen and (max-width: 800px) {
+
+	.grid_4 {
+		width: 100%;
+	}
+
+	.grid_6 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mail {
+		float: none;
+	}
+
+	.phone {
+		margin-left: none;
+		margin-right: 9%;
+	}
+
+	.topbox li {
+		font-size: .875em;
+	}
+
 }
 
 
